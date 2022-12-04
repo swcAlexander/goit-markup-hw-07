@@ -60,13 +60,13 @@
 .footer {
   .social-links__link {
     background-color: rgba(255, 255, 255, 10%);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
   }
   .social-links__icon {
     fill: var(--primary-white-color);
-  }
-  .social-links__link:hover,
-  .social-links__link:focus {
-    background-color: var(--accent-color);
   }
 }
 
