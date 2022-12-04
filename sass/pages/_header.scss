@@ -4,6 +4,11 @@
   background-color: var(--primary-white-color);
 }
 
+.site-header--border {
+  @extend .site-header;
+  border-bottom: 1px solid #ececec;
+}
+
 .nav__item {
   width: auto;
   margin-left: 93px;
