@@ -23,6 +23,10 @@
   color: var(--primary-white-color);
 }
 
+.footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .social-container__item + .social-container__item {
   margin-top: 9px;
 }
